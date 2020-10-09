@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" meta name="viewport">
+<title>标签页</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.leader{
+			width:15%;
+			height: 100%;
+			
+			font-size:25px;
+			font-family:微软雅黑,宋体，Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color:black ;
+			text-align:center;
+			font-style :italic;
+			font-weight: 625;
+			
+			background-color: aqua; 
+			
+			border-width: 1%;
+			border-style: solid;
+			border-color:red blue white gold;
+			position: fixed;
+			
+			
+			
+		}
+		.species{
+			width:90%;
+			height: auto;
+			
+			background-color: antiquewhite;
+			text-align:center;
+
+			margin: 25px 8% ;
+			
+		}
+		.page{
+			
+			width: 80%;
+			height:auto;
+			float:right;
+			text-align:center;
+			
+		}
+		input[type="text"]{
+			width:350px;
+			height: 40px;
+		
+		}
+		input[type="submit"]{
+			width:100px;
+			height: 40px;
+		}
+		form{
+			margin: 7px 10% 7px 10%;
+			
+		}
+		.web{
+			width:135px;
+			height: 75px ;
+			background-color: gold;
+			
+			font-size:25px;
+			font-family:微软雅黑,宋体，Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color:black ;
+			font-style :italic;
+			font-weight: 625;
+			float:left;
+			
+			margin: 10px;
+			
+			
+		}
+		a{
+			
+
+		}
+
+		#bilibili{
+			background-color: rgb(1,177,253);
+		}
+		#cc{
+			background-color: rgba(165,190,220,1.00);
+		}
+		#Teach{
+			background-color: rgba(29,103,168,1.00);
+		}
+		#history{
+			background-color: rgba(219,79,55,1.00);
+		}
+		#bootstrap{
+			background-color: rgba(77,36,73,1.00);
+		}
+		#MOOC{
+			background-color: green;
+		}
+		#class{
+			background-color: skyblue;
+
+			}
+		#VPN{
+			background-color: purple;
+		}
+		#s{
+			background-color: rgba(230,133,132,10);
+		}
+
+		#clan{
+			background-color:rgba(96,188,68,1.00);
+
+		}
+		#sobooks{
+			background-color: rgba(109,109,109,1.00);
+		}
+		#pj{
+			background-color: rgba(110,99,99,1.00);
+		}
+		#software{
+			background-color: rgba(11,47,215,0.83)
+		}
+
+
+	
+	</style>
+</head>
+
+<body>
+	
+	<div class="leader">
+		<div class="species" id="research">搜索引擎</div>
+		<div class="species" id="study">学习</div>
+		<div class="species" id="source">资源</div>
+		<div class="species" id="shop">工具</div>
+		<div class="species" id="ticket">购物</div>
+		<div class="species" id="tool">购票</div>
+		<div class="species" id="personweb">个人主页</div>
+
+		
+	
+	</div>
+	
+
+	<div class="page" id="page1">
+		<form action="http://www.baidu.com/baidu" target="_blank">
+		<input type=text name=word size=3 autocomplete="off">
+		<input type="submit" value="百度搜索">
+		</form>
+	
+	</div>
+	
+	<div class="page" id="page2">
+		<a href="https://www.bilibili.com/" target="_blank"><div class="web" id="bilibili" >哔哩哔哩</div></a>
+
+		<a href="http://jszx.cuit.edu.cn/" target="_blank"><div class="web" id="cc">计算机中心</div></a>
+		<a href="https://sso.cuit.edu.cn/authserver/login?service=http%3A%2F%2F210.41.225.2%2Feams%2F" target="_blank"><div class="web" id="Teach">教务处</div></a>
+		<a href="https://www.mosoteach.cn/web/index.php?c=passport&m=index" target="_blank"><div class="web" id="class">蓝墨云班</div></a>
+		<a href="https://www.allhistory.com/" target="_blank"><div class="web" id="history">全历史</div></a>
+		<a href="https://www.bootcss.com/" target="_blank"><div class="web" id="bootstrap">Bootstrap</div></a>
+		<a href="https://www.icourse163.org" target="_blank"><div class="web" id="MOOC">中国大学MOOC</div></a>
+		<a href="https://www.bilibili.com/read/cv3560839" target="_blank"><div class="web" id="s">前端学习</div></a>
+		<a href="https://webvpn.cuit.edu.cn/portal/?redirect_uri=http%3A%2F%2Fjwgl-cuit-edu-cn.webvpn.cuit.edu.cn%3A8118%2Feams%2Fhome.action#!/login" target="_blank"><div class="web" id="VPN">校园VPN</div></a>
+		<a href="http://jxpt.cuit.edu.cn/meol/index.do?menuId=1" target="_blank"><div class="web">大学在线教育平台</div></a>
+		<a href="https://sso.cuit.edu.cn/authserver/login?service=http%3A%2F%2Fjxpt.cuit.edu.cn%2Fmeol%2Fhomepage%2Fcommon%2Fsso_login.jsp" target:"_blank"><div class="web">教学平台</div></a>
+		<a href="https://pintia.cn/problem-sets?tab=1" target="_blank"><div class="web" >PTA</div></a>
+		<a href="https://github.com/"><div class="web" target="_blank">GitHub</div></a>
+	
+	</div>
+	<div class="page" id="page3">
+		
+		<a href="https://www.chongbuluo.com/" target="_blank"><div class="web" id="clan">虫部落</div></a>
+		<a href="https://sobooks.cc/" target="_blank"><div class="web" id="sobooks">sobooks</div></a>
+		<a href="https://www.52pojie.cn/" target="_blank"><div class="web" id="pj">吾爱破解</div></a>
+		<a href="http://www.hellofont.cn/" target="_blank"><div class="web" id="zy">字由</div></a>
+		<a href="https://www.onlinedown.net" target="_blank"><div class="web" id="software">华军软件园</div></a>
+		<a href="" target="_blank"><div class="web"></div></a>
+		<a href="https://chromecj.com/" target="_blank"><div class="web">谷歌插件网</div></a>
+	
+	</div>
+	<div class="page" id="page4">
+		<a href="https://www.gaoding.com/" target="_blank"><div class="web">稿定设计</div></a>
+		
+		<a href="http://jxgl.cuit.edu.cn/jkdk" target="_blank"><div class="web">疫情打卡</div></a>
+		<a href=""><div class="web" target="_blank"></div></a>
+	</div>
+	<div class="page" id="page5">
+		<a href="https://www.12306.cn/index/" target="_blank"><div class="web" id="12306">中国铁路12306</div></a>
+		<a href="http://report.12377.cn:13225/mainNotice.html" id="12377" target="_blank"><div class="web">互联网违法举报12377</div></a>
+		<a href="http://www.12315.cn/" target="_blank"><div class="web" id="12315">消费者权益保护12315</div></a>
+		<a href=""><div class="web" target="_blank"></div></a>
+		<a href=""><div class="web" target="_blank"></div></a>
+
+	</div>
+	<div class="page" id="page6">
+		<a href="https://www.taobao.com/" target="_blank"><div class="web" id="taobao">淘宝</div></a>
+		<a href="https://www.jd.com/" target="_blank"><div class="web" id="JD">京东</div></a>
+		<a href="" target="_blank"><div class="web" ></div></a>
+		<a href="" target="_blank"><div class="web" ></div></a>
+		<a href=""target="_blank"><div class="web" ></div></a>
+	
+	</div>
+	<div class="page" id="page0">
+		
+		<a href="#" target="_blank"><div class="web">待开发</div></a>
+
+	</div>
+	
+	
+	
+</body>
+</html>
